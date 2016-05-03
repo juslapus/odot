@@ -7,6 +7,9 @@ class TodoListsController < ApplicationController
     @todo_lists = TodoList.all
   end
 
+  def hello
+  end
+
   # GET /todo_lists/1
   # GET /todo_lists/1.json
   def show
